@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lateef', serif;
+}
+.header{
+  min-height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/Qassim_University.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.nav{
+  display: flex;
+  padding: 20% 30%;
+  justify-content: center;
+  align-items: center;
+}
+/*----- logo size -----*/
+nav img{
+  width: 350px;
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  padding: 12px 34px;
+  font-size: 30px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #E6E6FA;
+  background: #E6E6FA;
+  transition: 0.5s;
+  bottom: 49%;
+  opacity: 1;
+}
+
+
+
+/*----- campus -----*/
+.campus{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/*----- sizez -----*/
+.campus h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #777;
+}
+.campus p{
+  color: #777;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 20px;
+}
+/*----- -- -----*/
+
+.campus-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-col img{
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover{
+  background: rgb(230, 230, 250);
+}
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color: #800000;
+  font-size: 35px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+/*----- footer -----*/
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background: #F8F8FF;
+  color: #f44336;
+}
+.footer h1{
+  margin-bottom: 10px;
+  margin-top: 18px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #800000;
+}
+.footer p{
+  color: #777;
+  font-size: 27px;
+  font-weight: 250;
+  line-height: 25px;
+  padding: 15px;
+}
+.fa-heart{
+  color: #f44336;
+}
